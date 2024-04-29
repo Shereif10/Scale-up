@@ -1,0 +1,134 @@
+.home{
+    background-image: url(../img/slide5-2.jpg);
+    width: 100%;
+    height: 95vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar li a{
+    line-height: 30px;
+    margin: 8px 10px;
+   
+}
+.fix-whats {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 111;
+  }
+  .fix-whats i{
+    background: rgb(255,205,84);
+
+  }
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.home-caption{
+    height: 80vh;
+}
+.home-caption h1 {
+    font-size: 51px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.home-caption p , .about-caption p{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.home-caption button ,.contact button ,.contactContainer button{
+    border-color: rgb(187,138,1)  !important ;
+background-color: rgb(187,138,1)  !important  ;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}
+.contactContainer{
+    width: 40%;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color:rgb(187,138,1)  !important ;
+    outline: 0;
+    box-shadow: 0 0 0 0.25px rgb(187,138,1)  !important;
+}
+
+.social-icon li {
+    margin: 5px;
+    list-style:none;
+    border:1px solid var(--maim-color) ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+
+}
+  .social-icon li a{
+    color: white;
+}
+.contactUs{
+    width: 100%;
+    height: 90vh;
+    /* background-color: black; */
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 70%);
+}
+.contactIcon {
+    list-style:none;
+    
+}
+.title h1{
+        font-family: 'Pacifico', cursive;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bolder;
+      
+}
+.navbar-brand img{
+    width: 150px;
+    height: 150px;
+}
+
+@media screen  and (max-width:1149px){
+  
+    .contactContainer
+    {
+        width: 50%;
+    }
+ }
+ @media screen  and (max-width:850px){
+
+   
+ 
+    .contactContainer{
+        width: 70%;
+    }
+ }
+ @media screen  and (max-width:770px){
+
+  
+    .contactUs{
+     height: 140vh;    
+    }
+ }
+
+@media screen  and (max-width:500px){
+/* 
+    .navbar-brand img{
+        width: 40%;
+    } */
+    .contactContainer{
+        width: 90%;
+    }
+ }

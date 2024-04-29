@@ -1,0 +1,55 @@
+ 
+.navbar li a{
+    line-height: 30px;
+    margin: 8px 10px;
+   
+}
+ 
+.navbar{
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+ 
+.ProjectName{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 60px;
+        font-weight: bolder;
+}
+  
+.navbar-brand img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.social-icon li {
+    margin: 5px;
+    list-style:none;
+    border:1px solid var(--maim-color) ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+    
+
+
+}
+  .social-icon li a{
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .navbar-brand img{
+        width: 30%;
+    }
+    
+
+} 
+ 

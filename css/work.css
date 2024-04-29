@@ -1,0 +1,279 @@
+.home{
+    background-image: url(../img/slide5-2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar li a{
+    line-height: 30px;
+    margin: 8px 10px;
+   
+}
+.fix-whats {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 111;
+  }
+  .fix-whats i{
+    background: rgb(255,205,84);
+
+  }
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.home-caption{
+    height: 80vh;
+}
+.home-caption h1 {
+    font-size: 51px;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.home-caption p {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.home-caption button ,.contact button {
+    border-color: rgb(187,138,1)  !important ;
+background-color: rgb(187,138,1)  !important  ;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}
+
+.contactUs button{
+    border-color: rgb(187,138,1)  !important ;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}
+
+.nav-tabs .nav-link.active {
+    border: 0;
+    color:  rgb(187,138,1) ;
+
+}
+.nav-link {
+
+    color:  black;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500 !important;
+  
+}
+.Portfolio-contant {
+    /* height: 220px; */
+     /* Adjust the height as needed */
+}
+
+.text h3{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color:rgb(187,138,1)  ;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    isolation: isolate;
+    color:  rgb(187,138,1) ;
+    
+}
+.nav-tabs .nav-link {
+border: 0ch;
+
+}
+.nav-link.active {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid  rgb(187,138,1) ; /* You can customize the color and thickness of the line */
+  }
+  
+
+  .Portfolio-contant .layer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    background-color:  rgb(70,86,119);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    /* height: 220px; */
+}
+
+
+
+
+.Portfolio-contant:hover .layer{
+   
+    opacity: 1;
+    
+}
+
+
+
+hr {
+  
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+
+.contactUs{
+    width: 100%;
+    height: 90vh;
+    /* background-color: black; */
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 70%);
+}
+
+
+.social-icon li {
+    margin: 5px;
+    list-style:none;
+    border:1px solid var(--maim-color) ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+
+}
+  .social-icon li a {
+    color: white;
+}
+
+ .container{
+    width: 80%;
+ }
+ .title{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255,205,84);
+    background: linear-gradient(81deg, rgba(255,205,84,1) 0%, rgba(70,86,119,1) 47%, rgba(70,86,119,1) 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+        font-weight: bold;
+
+}
+
+
+
+
+  .line {
+    height: 4px; 
+    background-color: rgb(187,138,1) ; 
+    margin: 5px 0; 
+    
+  }
+  
+  .left {
+    width: 20px;
+    align-self: flex-start;
+  }
+  
+  .center {
+    width: 30px;
+    align-self: center;
+  }
+  
+  .right {
+    width: 20px;
+    align-self: flex-end;
+  }
+  .contactUs button:hover {
+    background-color: rgb(187,138,1)  !important;
+   
+}
+
+ 
+    .contactUs img{
+        width: 16%;
+    }
+    .contactUs button{
+        border-color: rgb(187,138,1)  !important ;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold !important;
+    }
+    .navbar-brand img{
+        width: 150px;
+        height: 150px;
+    }
+
+  
+  @media screen  and (max-width:850px){
+   
+    .title{
+        /* font-size: 40px; */
+        }
+
+        .contactUs{
+            height: 70vh;
+        }
+
+        .contactUs p {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contactUs img{
+            width: 30%;
+        }
+ }
+ @media screen  and (max-width:500px){
+    
+    .contactUs{
+        height: 70vh;
+    }
+
+    .contactUs p {
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Poppins', sans-serif;
+    }
+    .contactUs img{
+        width: 40%;
+    }
+ 
+    .navbar-brand img{
+        width: 40%;
+    }
+    
+}
